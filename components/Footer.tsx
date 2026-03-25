@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-[rgba(0,0,0,0.09)] bg-canvas py-6">
       <p className="text-center font-mono text-[11px] text-muted">
-        Designed &amp; built by {portfolio.name} · {year} · Next.js + Tailwind
+        Designed &amp; built by {portfolio.name}
       </p>
     </footer>
   );

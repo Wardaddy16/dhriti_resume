@@ -39,3 +39,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Accent-tinted text selection */
+::selection {
+  background-color: rgba(24, 95, 165, 0.13);
+  color: #1a1a18;
+}
+
+/* Subtle dot-grid texture — used in Hero */
+.dot-grid {
+  background-image: radial-gradient(
+    circle,
+    rgba(26, 26, 24, 0.065) 1px,
+    transparent 1px
+  );
+  background-size: 26px 26px;
+}
